@@ -7,6 +7,7 @@ use ExtUtils::MakeMaker;
 my $prereqs = {'LWP' => 0,
                'XML::SAX::ExpatXS' => 0,
                'PAR' => 0,
+               'PAR::Packer' => 0,
                'Module::Signature' => 0,
                'File::Which' => 0,
                'Archive::Zip' => 1.02,
