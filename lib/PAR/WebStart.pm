@@ -321,6 +321,10 @@ Copyright, 2005, by Randy Kobes <r.kobes@uwinnipeg.ca>.
 This software is distributed under the same terms as Perl itself.
 See L<http://www.perl.com/perl/misc/Artistic.html>.
 
+=head1 CURRENT MAINTAINER
+
+Kenichi Ishigaki <ishigaki@cpan.org>
+
 =cut
 
 
