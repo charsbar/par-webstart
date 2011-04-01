@@ -11,7 +11,7 @@ use ExtUtils::Manifest qw(mkmanifest maniread);
 use base qw(Exporter);
 use Module::Signature qw(sign verify SIGNATURE_OK);
 
-our $VERSION = 0.18;
+our $VERSION = 0.19;
 our @EXPORT_OK = qw(make_par verifyMD5);
 
 use constant WIN32 => ($^O eq 'MSWin32');

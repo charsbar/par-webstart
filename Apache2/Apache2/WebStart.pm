@@ -10,7 +10,7 @@ use Apache2::Log ();                                  # log_error
 use Apache2::ServerRec ();                            # host_name
 use Apache2::RequestIO ();                            # print
 
-our $VERSION = 0.18;
+our $VERSION = 0.19;
 
 sub handler {
   my $r = shift;

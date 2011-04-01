@@ -12,7 +12,7 @@ use PAR::WebStart::Util qw(verifyMD5);
 use Config;
 use constant WIN32 => PAR::WebStart::Util::WIN32;
 
-our $VERSION = 0.18;
+our $VERSION = 0.19;
 
 sub new {
   my ($class, %args) = @_;
