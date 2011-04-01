@@ -1,3 +1,7 @@
+April 2, 2011 - 0.19
+  - new maintainer
+  - added PAR::Packer dependency
+
 June 30, 2005 - 0.18
   - in make_par, remove existing par file of the same
     name in the source directory (if it exists) before
