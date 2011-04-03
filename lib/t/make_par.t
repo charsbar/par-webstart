@@ -24,9 +24,14 @@ my $rc = verifyMD5(md5 => $cs, file => $dst_par);
 ok($rc, 1);
 
 my $par_command = WIN32 ? which('par') : which('par.pl');
-my @args = ($par_command, $dst_par);
-$rc = system(@args);
-ok($rc, 0);
+if ($par_command) {
+  my @args = ($par_command, $dst_par);
+  $rc = system(@args);
+  ok($rc, 0);
+}
+else {
+  skip(1);
+}
 my $manifest = File::Spec->catfile($src_dir, 'MANIFEST');
 unlink($dst_par, $cs, $manifest);
 
