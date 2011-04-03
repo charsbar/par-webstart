@@ -1,3 +1,6 @@
+April 4, 2011 - 0.20
+  - see if par(.pl) is really accessible during tests
+
 April 2, 2011 - 0.19
   - new maintainer
   - added PAR::Packer dependency
