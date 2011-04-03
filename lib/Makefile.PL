@@ -1,5 +1,5 @@
 use strict;
-require ExtUtils::MakeMaker;
+use ExtUtils::MakeMaker;
 my %opts = (
             NAME => 'PAR::WebStart',
             VERSION_FROM => 'PAR/WebStart.pm',
