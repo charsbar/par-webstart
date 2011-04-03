@@ -2,7 +2,15 @@
 use strict;
 use warnings;
 use Test;
-BEGIN {plan tests => 20};
+use File::Which;
+BEGIN {
+  my $has_par = ($^O eq 'MSWin32') ? which('par') : which('par.pl');
+  if ($has_par) {
+    plan tests => 20;
+  } else {
+    plan tests => 0; exit;
+  }
+};
 use PAR::WebStart;
 use PAR::WebStart::PNLP;
 use Cwd;
